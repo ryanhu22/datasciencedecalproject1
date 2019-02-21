@@ -16,9 +16,9 @@ This repo includes the resumes of the following people:
 * I am currently a student at University of California, Berkeley, majoring in Applied Mathematics and Statistics. Recreationally, I love watching and playing tennis, singing, and writing poetry. I also love the environment and wish to take up a career in the same field, wherein I could apply statistical analysis to help with problems like climate change etc.
 * Jobs interested in: Quantitative Researcher for Tesla, Lead Statistician for Clean Harbors Inc., Quantitative Analyst for CTG
 
-###### [Name of Person that Resume 3 is about]
-* 5 sentence summary describing the person from Resume 3.
-* Jobs interested in: [List 3 job titles that this person is looking for. Be relevant and creative!]
+###### Sebastian Verduzco
+* I am currently an undergraduate student at the University of California, Berkeley studying Economics and Data Science. Throughout my professional career, I have gained experienced in a diverse group of businesses that have influenced all aspects of my professional development. I am unsure of my future career path, but I know that it will be centered around business and tech. My most unique job experience was my internship at Grab TaxiHoldings Inc in Manila, Philippines, where I assited the Operations Manager. Just recently, I joined a consulting club called The Berkeley Group, where we do pro bono, non-profit consulting. 
+* Jobs interested in: Consulting, Investment Banking, Product Management
 
 ###### Dylan Supencheck
 * I am currently an Undergrad at U.C. Berkeley studying Data Science and Urban Planning. I hope to be able to combine the two to interpret and study the plethora of data available from populations and cities. Alongside my major, I have hobbies in digital media production, with experience in photography and social media management. I have been involved in Rotary sponsored clubs, Interact and Rotaract, for years and hope to continue involvement in non-profit work.
