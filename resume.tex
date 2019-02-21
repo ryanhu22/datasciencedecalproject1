@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Uday Krishna Kalra
+% Adapted from: Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\href{abhoi.github.io}{\huge Uday Krishna Kalra}} \\  \href{mailto:udaykrishna25@berkeley.edu}{\color{blue}\underline{udaykrishna25@berkeley.edu}} $\vert$
+  510-570-7520 $\vert$
+  Github: \href{https://github.com/udaykrishna25}{\color{blue}\underline{abhoi}} \\
+  \small 2700 Hearst Ave, Berkeley, CA
+\end{center}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {Bachelor of Arts in Applied Mathematics;  GPA: 3.73/4.0}{Expected May 2022}
+    \resumeSubheading
+      {The Heritage School, Vasant Kunj}{New Delhi, India}
+      {Completed grade 9, 10, 11, 12;  GPA: 3.8/4.0 }{Aug 2014 - May 2018}
+    %   \resumeItemNoBullet{Relevant Coursework}{Analysis \& Design of Algorithms, Data Structures using C, Operating Systems, Pattern Recognition}
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------------
+\shorterSection{Leadership}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{President, Ecology Club, The Heritage School:}\newline
+     {Sensitize the students and neighborhood to create a clean and green consciousness and educate them to refrain from
+indiscriminate burning of waste through open-orientation programs}\newline
+    {Headed a team of 4 in a state-level event seeing participation from 100+ schools, where teams had to judiciously allocate funds to improve the condition of a neighborhood park}
+     \hfill}
+    \vspace{-5pt}
+    \item{
+     \textbf{Math Teaching Assistant, The Heritage School, Vasant Kunj:}\newline
+        {Initiated a 6-month Remedial Class Program to tutor a class of 20+ 6th grade students struggling with math}\newline
+        {On completion of the program, the class outperformed by ~20\% in their year-end examination}
+    }
+\resumeSubHeadingListEnd
+
+%-----------EXTRA-CURRICULAR ACHIEVEMENTS-----------------
+\shorterSection{Extra-Curricular Achievements}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{Lead Indian Classical Music Vocalist, Delhi student chapter, Gwalior Gharana:}\newline
+     {5th year degree holder from the reputed Prayag Sangeet Samiti, Allahabad with distinction in Sangeet Prabhakar}\newline
+     {Judged multiple state-level classical music competitions organized by \lq Itihaas' fraternity}
+       \hfill}
+    \vspace{-5pt}
+    \item{
+     \textbf{Author, ''Over the Years'' - A unique compilation of 23 English short poems:}\newline
+     {Explores various ideas and themes prevalent with today\lq s youth - power, dreams, sexual discrimination etc.}\newline
+     {Published and sold 200+ copies till date with profits donated towards \lq Nai Disha School for the Underprivileged'}
+     
+     }
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------------
+\shorterSection{Work Experience}
+  \resumeSubHeadingListStart
+    \small
+    \item{
+     \textbf{Summer Intern, Canara, HSBC, OBC Life Insurance Pvt. Ltd.:}\newline
+     {Working with a team of ten under the Actuarial Department of the company}\newline
+     {Analyzed company's various products to calculate the annual premium and terminal benefits of policy holders}
+    \hfill}
+    \vspace{-5pt}
+    \item{
+    \textbf{Research Intern, International Internship Program, LEAD India:}\newline
+    {Part of the research team engaged in discovering optimal and greener strategies for preservation of water bodies}\newline
+    {Undertook planning and execution of the research assignments under climate change and water governance programs for
+training purposes}
+     
+     }
+  \resumeSubHeadingListEnd
+
+%-----------COMMUNTIY SERVICE-----------------
+\shorterSection{Community Service}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+    \textbf{Volunteer, Centre for Environment Education, Ministry of Environment:}\newline
+    {Coordinated efforts among a team of 10 to install systems for rainwater harvesting and waste management in multiple
+    schools in South Delhi, successfully reducing the schools' overhead cost by ~20\% on an annual basis}\newline
+    {Responsible, as relationship manager, for 6 schools enrolled under the program}
+     \hfill}
+    \vspace{-5pt}
+    \item{
+    \textbf{Research Volunteer, Praxis Institute for Participatory Research, Delhi:}\newline
+    {Volunteer for a project involving investigating public policies and child labor protection laws in various Asian countries}\newline
+    {Research was used to build a system to rate business organizations on the efficiency of their CSR practices}
+    }
+  \resumeSubHeadingListEnd
+  
+  %-----------RESEARCH PROJECTS-----------------
+\shorterSection{Research Projects}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+    \textbf{Demographic Index Project:}\newline
+    {Surveyed a sample of an urban neighborhood and created demographic index for the same highlighting the statistical indicators
+    such as literacy rate, birth and death rate, life expectancy, net enrollment rate etc.}\newline
+    {Analyzed the results to comment on the current demographic trend in India}
+    \hfill}
+    \vspace{-5pt}
+    \item{
+    \textbf{Human Capital Formation Project:}\newline
+    {Analyzed and Examined the Education, Health, and skill development statistical indicators and policies
+    implemented by the India and United States over a period of 50 years}\newline
+    {Summarized the difference in their outlook towards policy formation and current socio-economic trend of the world}
+    \hfill}
+    \vspace{-5pt}
+    \item{
+    \textbf{Segment Analysis Project:}\newline
+    {Analyzed and compared the annual segment reports and cash flow statements of Adidas co. for year ending Dec 31, 2016 and 2017}\newline
+    {Elucidated the reasons for a segment to be performing the best and worst contributing most and least in terms of profit, revenue,
+    and Return on Investment in the two years}\newline
+    {Highlighted the main reasons for the change in cash flow position of the company}
+     }
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
