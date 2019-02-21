@@ -20,6 +20,7 @@ This repo includes the resumes of the following people:
 * 5 sentence summary describing the person from Resume 3.
 * Jobs interested in: [List 3 job titles that this person is looking for. Be relevant and creative!]
 
-###### [(If you have a 4th team member, otherwise delete this entire section) Name of Person that Resume 4 is about]
-* 5 sentence summary describing the person from Resume 4.
-* Jobs interested in: [List 3 job titles that this person is looking for. Be relevant and creative!]
+###### Dylan Supencheck
+* I am currently an Undergrad at U.C. Berkeley studying Data Science and Urban Planning. I hope to be able to combine the two to interpret and study the plethora of data available from populations and cities. Alongside my major, I have hobbies in digital media production, with experience in photography and social media management. I have been involved in Rotary sponsored clubs, Interact and Rotaract, for years and hope to continue involvement in non-profit work.
+* Jobs interested in: Data Science Intern, Digital Media Coordinator, Software Engineering Intern
+
